@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-24T10:00:35.860Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="KArgtjEAplBEwZeUw6am" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-24T10:04:47.088Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="N9duZ-6ZIGK1R2cceK7m" version="21.6.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1383" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -49,6 +49,9 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-12" value="Replace Bulb" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="770" y="800" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="cl4uQVWVMPJtjtVOU12t-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cl4uQVWVMPJtjtVOU12t-0" target="cl4uQVWVMPJtjtVOU12t-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="cl4uQVWVMPJtjtVOU12t-0" value="クエリストアで異常な処理時間を占めている処理があるか確認する" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="80" y="460" width="280" height="60" as="geometry" />
         </mxCell>
@@ -59,6 +62,17 @@
         </mxCell>
         <mxCell id="cl4uQVWVMPJtjtVOU12t-1" value="結果が劣化した？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="105" y="300" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cl4uQVWVMPJtjtVOU12t-13" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cl4uQVWVMPJtjtVOU12t-10" target="cl4uQVWVMPJtjtVOU12t-12">
+          <mxGeometry x="0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cl4uQVWVMPJtjtVOU12t-10" value="実行計画に劣化があった？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="70" y="570" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cl4uQVWVMPJtjtVOU12t-12" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="70" y="720" width="300" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
